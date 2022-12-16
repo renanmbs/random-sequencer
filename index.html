@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Sequence</title>
+    <link href="./css/stylesheet.css" rel="stylesheet">
+</head>
+<body>
+
+    <section id="container">
+        <h1>Random Sequencer</h1>
+        <h3>Input the names and get them randomly sorted</h3>
+        
+        <article id="box">
+            <form id="form">  
+                
+                <label for="names">Names</label><br>
+                <input type="text" id="names" name="names" required>
+
+                <p>OBS: Separate the names by a comma</p>
+
+                <input type="submit" id="submission">
+                <input type="button" id="clean" value="Clean">
+
+                <section id="result">
+                    <h4>Result:</h4>
+                    <ol id="result_ol">
+
+                    </ol>
+                </section>
+                
+            </form>
+        </article>
+    </section>
+
+</body>
+
+<script src="./js/app.js"></script>
+</html>
