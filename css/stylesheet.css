@@ -22,14 +22,30 @@ h1{
     height: 40rem;
     width: 35rem;
     box-shadow: 0 8px 20px 0 #2A2726;
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     filter: drop-shadow(1px 2px 5px #6A8A94);
 }
 
 #result{
     display: none;
+}
+
+
+
+@media only screen and (max-width: 600px){
+
+    body{
+        font-size: small;
+    }
+    #container{
+        margin: 0% auto;
+        height: 30rem;
+        width: 15rem;
+    }
+
+    h1{
+        font-size: 1.2rem;
+    }
 }
 
 
